@@ -1,0 +1,104 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+header {
+    text-align: center;
+}
+.topPage {
+    height: 7vw;
+    width: auto;
+    margin-bottom: 5vw;
+    display: block;
+}
+#logo {
+    height: 8vw;
+    width: auto;
+    display: inline-flex;
+    margin-top: 2.5vw;
+    margin-bottom: 0em;
+    float: left;
+    margin-left: 2vw;
+}
+#title {
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+    display: inline-flex;
+    padding-right: 2em;
+    text-transform: uppercase;
+    justify-content: flex-start;
+    margin-top: 4vw;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+.taps a:hover, footer a:hover {
+    font-size: larger;
+    font-weight: 600;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2vw;
+}
+
+.taps ul {
+    padding-right: 2vw;
+}
+.taps li {
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: center;
+    display: inline-flex;
+    padding: 1.5vw 3vw;
+    list-style: none; 
+}
+@media screen and (max-width: 650px) {
+    .taps li {
+      float: none;
+      display: block;
+      font-size: 0.6em;
+      text-align: center;
+      padding-right: 7em;
+    }
+    .title {
+        font-size: 30px;
+    }
+}
+footer {
+    text-align: center;
+    font-size: 2.5vw;
+    margin-bottom: 2em;
+}
+footer a {
+    padding-right: 1em;
+}
+/*#insta {
+    display: inline;
+}
+h6 {
+    display: inline-block;
+}*/
+.rrss li {
+    list-style: none;
+    padding: 0.5em;
+    display: inline-flex;
+    margin: 0em 0em;
+}
+#insta_icon {
+    height: 1em;
+    width: 1em;
+} 
+/*#whatsapp_icon {
+    background-image: url("resources/images/whatsapp_logo.jpg");
+    background-size: cover;
+    height: 1em;
+    width: 1em;
+}*/
+#whatsapp_icon {
+    height: 1em;
+    width: auto;
+    max-width: 30%;
+}
